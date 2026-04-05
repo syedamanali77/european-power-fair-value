@@ -1,0 +1,51 @@
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data 
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs (regenerate locally; see README)
+outputs/models/*
+!outputs/models/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/qa/*
+!outputs/qa/.gitkeep
+outputs/logs/*
+!outputs/logs/.gitkeep
+outputs/predictions.csv
+outputs/submission.csv
+outputs/commentary_latest.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# LLM / run artifacts 
+*.parquet
+*.feather

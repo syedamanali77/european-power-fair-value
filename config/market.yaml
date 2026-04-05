@@ -1,0 +1,26 @@
+# DE/LU — SMARD filters: https://github.com/bundesAPI/smard-api/blob/main/openapi.yaml
+market_code: DE_LU
+timezone: Europe/Berlin
+
+smard:
+  da_price_eur_mwh:
+    filter: 4169
+    region: DE-LU
+  load_mw:
+    filter: 410
+    region: DE
+  wind_onshore_mw:
+    filter: 4067
+    region: DE
+  wind_offshore_mw:
+    filter: 1225
+    region: DE
+  solar_mw:
+    filter: 4068
+    region: DE
+  wind_onshore_fc_mw:
+    filter: 123
+    region: DE
+  solar_fc_mw:
+    filter: 126
+    region: DE
