@@ -1,0 +1,15 @@
+{
+  "held_out_hours": 2221,
+  "forecast_delivery_mean_next_week_eur_mwh": 61.25294389008497,
+  "forecast_delivery_mean_next_month_proxy_eur_mwh": 78.10899437844837,
+  "held_out_pred_p10_p90_eur_mwh": [
+    25.453893681114877,
+    156.14982049607852
+  ],
+  "interpretation": "Compare week/month means to prompt month or quarter.",
+  "invalidation_examples": [
+    "Forecasts vs actuals keep wrong.",
+    "Market regime change.",
+    "Bad or missing data."
+  ]
+}

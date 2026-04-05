@@ -69,6 +69,8 @@ Figures (defaults):
 
 CSV: `outputs/predictions.csv` (`id` timestamp string, `y_pred`).
 
+The same `report` step refreshes **`run_snapshot/`** (plots, QA + metrics copies, `submission.csv`, `hold_out_meta.json`, `validation_summary.md`). See `run_snapshot/README.md`.
+
 `outputs/models/prompt_curve_view.json` — short summary stats on the hold-out predictions (means over last week / ~month of hours, p10–p90). Handy to compare to a forward month or quarter on a desk, or to paste into a prompt.
 
 ## LLM commentary
@@ -82,5 +84,5 @@ CSV: `outputs/predictions.csv` (`id` timestamp string, `y_pred`).
 | SMARD download / merge | `src/data/smard.py`, `src/pipeline/ingest.py` |
 | QA | `src/pipeline/qa.py` |
 | Features, CV, pickle | `src/pipeline/train.py` |
-| Plots, predictions CSV | `src/pipeline/report.py` |
+| Plots, predictions CSV, run snapshot | `src/pipeline/report.py` |
 | Ollama / OpenAI wrapper | `src/ai/llm_client.py` |

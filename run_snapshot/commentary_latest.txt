@@ -1,0 +1,9 @@
+The power market forecasting model has been evaluated on a dataset of 15,144 rows. The performance metrics for the different models are as follows:
+
+The naive same-week-hour approach performed poorly with an MAE of around 35.4 MWh. In contrast, the hist gradient boosting model had a lower MAE of around 18.9 MWh.
+
+A comparison of the week/month means to the prompt month or quarter forecast suggests that there is room for improvement in capturing seasonal patterns.
+
+The QA summary shows that there are no duplicate timestamps and very little missing data (less than 0.01%). The IQR outlier fraction is relatively low, indicating that most values are within a reasonable range.
+
+The forecasting delivery mean next week and month forecasts suggest that the model can capture some seasonal patterns, but may struggle with longer-term predictions.

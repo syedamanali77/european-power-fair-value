@@ -30,4 +30,10 @@ python -m src.ai.commentary
 
 Optional: `python -m src.pipeline.qa --llm-rules`
 
-Write-up: `docs/notes.md`. Outputs under `outputs/` and `data/processed/`.
+Working outputs: `outputs/` and `data/processed/` (see `data/README.md`). **SMARD URL patterns and filters** are in `docs/notes.md`.
+
+## Run snapshot
+
+After `report`, **`run_snapshot/`** is refreshed: `submission.csv`, `hold_out_meta.json`, `validation_summary.md`, figures, QA + metrics JSON, prompt-curve summary, and LLM logs if you generated them. See `run_snapshot/README.md`.
+
+Longer design notes: `docs/notes.md`.
