@@ -36,4 +36,4 @@ Working outputs: `outputs/` and `data/processed/` (see `data/README.md`). **SMAR
 
 After `report`, **`run_snapshot/`** is refreshed: `submission.csv`, `hold_out_meta.json`, `validation_summary.md`, figures, QA + metrics JSON, prompt-curve summary, and LLM logs if you generated them. See `run_snapshot/README.md`.
 
-Longer design notes: `docs/notes.md`.
+Design notes: `docs/notes.md`. **Narrative write-up (1–3 pages):** `docs/writeup.md` 
